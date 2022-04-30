@@ -1,0 +1,49 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "tapio:co2_drink",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "tapio_sky_drink"
+      },
+      "minecraft:foil": true,
+      "minecraft:use_duration": 1.6,
+      "minecraft:use_animation": "drink",
+      "minecraft:render_offsets":{
+        "main_hand":{
+          "first_person":{
+            "position": [0.05, 0.0, -0.2],
+            "scale": [0.005, 0.005, 0.005]
+          },
+          "third_person":{
+            "position": [-0.3, 1.2, -0.5],
+            "scale": [0.025, 0.025, 0.025]
+          }
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 20,
+        "can_always_eat": true,
+        "saturation_modifier": "low",
+        "on_consume": {
+          "event": "tapio:sky_effect"
+        }
+      }
+    },
+    "events": {
+      "tapio:sky_effect": {
+        "sequence": [{
+          "add_mob_effect": {
+            "effect": "levitation",
+            "target": "holder",
+            "duration": 20,
+            "amplifier": 2
+          }
+        }]
+      }
+    }
+  }
+}

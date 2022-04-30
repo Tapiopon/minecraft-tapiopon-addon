@@ -1,0 +1,19 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "たぴおぽんアドオンR",
+    "description": "カオスを目指すアドオンのリソース",
+    "version": [ 0, 0, 0 ],
+    "uuid": "fdaf0550-d0d1-49a5-85cc-27ef935edd15",
+    "min_engine_version": [ 1, 18, 0 ],
+    "pack_scope": "world"
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "description": "resources pack",
+      "version": [ 1, 0, 0 ],
+      "uuid": "7e8e1d45-f9a3-4364-a184-7618a2bd9147"
+    }
+  ]
+}

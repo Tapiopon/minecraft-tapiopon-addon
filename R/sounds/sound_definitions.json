@@ -1,0 +1,11 @@
+{
+  "format_version": "1.16.100",
+  "sound_definitions": {
+    "dig.tapiopon_block": {
+      "category": "block",
+      "sounds": [
+        "sounds/tapio/dig_tapiopon_block"
+      ]
+    }
+  }
+}

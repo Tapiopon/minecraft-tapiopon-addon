@@ -1,0 +1,7 @@
+{
+  "tapio:tapiopon_block": {
+    "textures": "block_tapiopon",
+    "sound": "tapio_normal_block"
+  },
+  "format_version": [1,0,0]
+}

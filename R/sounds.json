@@ -1,0 +1,14 @@
+{
+  "block_sounds" : {
+    "tapio_normal_block": {
+      "events": {
+        "break" :{
+          "pitch": [0.80,1.0 ],
+          "sound": "dig.tapiopon_block",
+          "volume": 0.70
+        },
+        "default" : ""
+      }
+    }
+  }
+}
